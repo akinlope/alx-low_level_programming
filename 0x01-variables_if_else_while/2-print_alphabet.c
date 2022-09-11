@@ -1,7 +1,13 @@
 #include <stdio.h>
-
 int main(void)
 {
-	putchar({a.z});
+	char alpha;
+	alpha = 'a';
+	
+	while (alpha <= 'z')
+	{
+		putchar (alpha);
+		alpha++;
+	}
 	return (0);
 }
