@@ -1,15 +1,12 @@
 #include "main.h"
-/*
- * A simple program that prints (_putchar)
- * using _putchar
+
+/**
+ * main - print putchar
+ * Return: always 0 
  */
 
 int main(void)
 {
-/*
- *  * A simple program that prints (_putchar)
- *   * using _putchar
- */
 
 	_putchar('_');
 	_putchar('p');
