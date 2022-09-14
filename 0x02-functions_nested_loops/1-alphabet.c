@@ -6,6 +6,11 @@
  */
 void print_alphabet(void)
 {
+/**
+ * main - check the code
+ *
+ * Return: Always0.
+ */
 	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
