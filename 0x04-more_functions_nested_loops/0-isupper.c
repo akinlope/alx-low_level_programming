@@ -16,10 +16,8 @@ int _isupper(int c)
 		_putchar('\n');
 		return (1);
 	}
-	else
-	{
+	else{
 		_putchar('\n');
 		return (0);
-	}
 }
 
