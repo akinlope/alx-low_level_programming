@@ -1,23 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isupper - check for uppercase
  * @c: is the arguement passed into the function
- * Return: 0
+ * Return: 1 whether it is, 0 otherwise
 */
 
 int _isupper(int c)
 {
 
-	c = 'A';
 	if ((c >= 'A') && (c <= 'Z'))
 	{
-		_putchar('\n');
 		return (1);
 	}
-	else
-		_putchar('\n');
 		return (0);
 }
 
