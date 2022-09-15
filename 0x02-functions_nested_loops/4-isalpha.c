@@ -2,13 +2,13 @@
 
 /**
  * _isalpha - function to check for capital character
- *@C: is the character that will be used for the arguement of the function
+ *@c: is the character that will be used for the arguement of the function
  * Return: Always 0.
  */
 
-int _isalpha(int C)
+int _isalpha(int c)
 {
-	if ((C >= 'a' && C <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
