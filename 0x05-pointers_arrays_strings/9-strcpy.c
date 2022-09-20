@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strcpy - Copy paste string
@@ -21,3 +22,4 @@ char *_strcpy(char *dest, char *src)
 
 
 	return (dest);
+}
