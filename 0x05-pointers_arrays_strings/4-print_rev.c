@@ -20,5 +20,4 @@ void print_rev(char *s)
 		s[i] = s[len - i - 1];
 		s[len - i - 1] = temp;
 	}
-	putchar("\n");
 }
