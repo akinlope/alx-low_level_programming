@@ -10,7 +10,7 @@
 
 int _find_sqrt(int n, int root)
 {
-	if ((root * root) == num)
+	if ((root * root) == n)
 	{
 		return (root);
 	}
