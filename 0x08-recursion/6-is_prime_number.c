@@ -23,7 +23,7 @@ int myfunc(int n, int i)
 }
 
 /**
- * _is_prime_number - check prime numbers
+ * is_prime_number - check prime numbers function
  * @n: only arguement
  * Return: returns a alue
  *
