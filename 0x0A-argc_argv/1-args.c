@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - function that counts argument passed in
@@ -10,12 +11,14 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int i,x;
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s\n", argv[i]);
+	x = atoi(argv[i]);
+	printf("%d\n", x);
 	}
+
 	return (0);
 }
 
