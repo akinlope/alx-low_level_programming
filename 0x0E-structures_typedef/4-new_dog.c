@@ -2,6 +2,40 @@
 #include "dog.h"
 
 /**
+ * _copy - make a copy of passed in argument
+ * @s: data to make copy of
+ * Return: Pointer
+ */
+
+char *_copy(char *s)
+{
+	char *ptr;
+	int i, len;
+
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+
+	for (len = 0; s[len] != '\0'; len++)
+
+	ptr = malloc(sizeof(char) * (len + 1));
+
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		ptr[i] = s[i];
+	}
+
+	ptr[i] = '\0';
+	return (ptr);
+}
+
+/**
  * new_dog - create a new dog
  *
  * @name: Name of dog
