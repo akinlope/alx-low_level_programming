@@ -1,10 +1,11 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include "dog.h"
 
 /**
  * print_dog - a simple function
  * struct - a dog struct
  * @d: dog arg
+ * Return: nothing
  */
 
 void print_dog(struct dog *d)
