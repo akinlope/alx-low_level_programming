@@ -8,6 +8,7 @@
  * @name: name
  * @age: age
  * @owner: owner
+ * Description: Struct for Dog
  *
  */
 
