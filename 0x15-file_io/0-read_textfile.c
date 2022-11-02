@@ -5,7 +5,7 @@
  * read_textfile - function to read a text
  * @filename:  the name of the file
  * @letters: letters contained in the file
- * Return: return file_write
+ * Return: return number
  */
 
 
@@ -23,7 +23,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buffer = malloc(sizeof(char) * letters);
 	if (buffer == NULL)
+	{
 		return (0);
+	}
 
 	file_read = read(file, buffer, letters);
 	if (file_read == -1)
